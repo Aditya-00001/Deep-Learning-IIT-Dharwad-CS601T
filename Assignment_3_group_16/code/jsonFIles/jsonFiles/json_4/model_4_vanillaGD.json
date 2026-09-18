@@ -1,0 +1,72 @@
+{
+    "architecture": 4,
+    "activation": "tanh",
+    "optimizer": "vanillaGD",
+    "learning_rate": 0.001,
+    "momentum": 0.9,
+    "threshold": 0.0001,
+    "epochs_limit": 10000,
+    "batch_size": 11385,
+    "configurations": {
+        "config_1": {
+            "hidden_nodes": [
+                128,
+                64,
+                32,
+                16
+            ],
+            "initial_error": 1.6119669729960713,
+            "errors": [
+                1.6119669729960713,
+                1.611966848373413,
+                1.6119496822357178,
+                1.6119325160980225
+            ],
+            "epochs": 3,
+            "final_error": 1.6119325160980225,
+            "final_train_accuracy": 20.0,
+            "final_val_accuracy": 20.0,
+            "model_path": "models/model_4_vanillaGD_config_1.pth"
+        },
+        "config_2": {
+            "hidden_nodes": [
+                256,
+                128,
+                64,
+                32
+            ],
+            "initial_error": 1.621312849051501,
+            "errors": [
+                1.621312849051501,
+                1.6213128566741943,
+                1.6212594509124756,
+                1.6212061643600464
+            ],
+            "epochs": 3,
+            "final_error": 1.6212061643600464,
+            "final_train_accuracy": 19.991216512955642,
+            "final_val_accuracy": 20.0,
+            "model_path": "models/model_4_vanillaGD_config_2.pth"
+        },
+        "config_3": {
+            "hidden_nodes": [
+                512,
+                256,
+                128,
+                64
+            ],
+            "initial_error": 1.6091039845018886,
+            "errors": [
+                1.6091039845018886,
+                1.6091039180755615,
+                1.6090641021728516,
+                1.6090244054794312
+            ],
+            "epochs": 3,
+            "final_error": 1.6090244054794312,
+            "final_train_accuracy": 20.0,
+            "final_val_accuracy": 20.0,
+            "model_path": "models/model_4_vanillaGD_config_3.pth"
+        }
+    }
+}
