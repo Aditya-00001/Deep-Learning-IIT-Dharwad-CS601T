@@ -1,0 +1,3 @@
+noise,representation_dim,architecture,hidden_layers,best_epoch,validation_accuracy,test_accuracy,checkpoint
+20%,128,4_hidden_normal,"[256, 128, 64, 32]",8,98.57707509881423,98.44532279314888,/content/task5_denoising/checkpoints/classifiers/dae_20pct_classifier_best.pt
+40%,128,4_hidden_normal,"[256, 128, 64, 32]",10,98.55072463768116,98.41897233201581,/content/task5_denoising/checkpoints/classifiers/dae_40pct_classifier_best.pt

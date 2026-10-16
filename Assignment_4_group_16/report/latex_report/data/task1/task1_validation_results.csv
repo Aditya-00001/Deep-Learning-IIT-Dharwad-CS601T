@@ -1,0 +1,17 @@
+pca_dim,architecture,hidden_layers,best_epoch,best_val_accuracy,checkpoint
+32,4_hidden_normal,"[256, 128, 64, 32]",13,98.68247694334651,/kaggle/working/task1_checkpoints/pca_32_4_hidden_normal_best.pt
+32,5_hidden_best,"[256, 128, 64, 32, 16]",14,98.62977602108037,/kaggle/working/task1_checkpoints/pca_32_5_hidden_best_best.pt
+32,3_hidden_best,"[128, 64, 32]",12,98.49802371541502,/kaggle/working/task1_checkpoints/pca_32_3_hidden_best_best.pt
+32,4_hidden_best,"[128, 64, 32, 16]",12,98.36627140974967,/kaggle/working/task1_checkpoints/pca_32_4_hidden_best_best.pt
+64,5_hidden_best,"[256, 128, 64, 32, 16]",11,98.57707509881423,/kaggle/working/task1_checkpoints/pca_64_5_hidden_best_best.pt
+64,3_hidden_best,"[128, 64, 32]",15,98.49802371541502,/kaggle/working/task1_checkpoints/pca_64_3_hidden_best_best.pt
+64,4_hidden_normal,"[256, 128, 64, 32]",15,98.39262187088273,/kaggle/working/task1_checkpoints/pca_64_4_hidden_normal_best.pt
+64,4_hidden_best,"[128, 64, 32, 16]",15,98.28722002635047,/kaggle/working/task1_checkpoints/pca_64_4_hidden_best_best.pt
+128,4_hidden_normal,"[256, 128, 64, 32]",15,98.41897233201581,/kaggle/working/task1_checkpoints/pca_128_4_hidden_normal_best.pt
+128,4_hidden_best,"[128, 64, 32, 16]",11,98.39262187088273,/kaggle/working/task1_checkpoints/pca_128_4_hidden_best_best.pt
+128,3_hidden_best,"[128, 64, 32]",15,98.3399209486166,/kaggle/working/task1_checkpoints/pca_128_3_hidden_best_best.pt
+128,5_hidden_best,"[256, 128, 64, 32, 16]",8,98.31357048748353,/kaggle/working/task1_checkpoints/pca_128_5_hidden_best_best.pt
+256,5_hidden_best,"[256, 128, 64, 32, 16]",17,98.44532279314888,/kaggle/working/task1_checkpoints/pca_256_5_hidden_best_best.pt
+256,4_hidden_best,"[128, 64, 32, 16]",11,98.41897233201581,/kaggle/working/task1_checkpoints/pca_256_4_hidden_best_best.pt
+256,4_hidden_normal,"[256, 128, 64, 32]",10,98.41897233201581,/kaggle/working/task1_checkpoints/pca_256_4_hidden_normal_best.pt
+256,3_hidden_best,"[128, 64, 32]",11,98.20816864295125,/kaggle/working/task1_checkpoints/pca_256_3_hidden_best_best.pt

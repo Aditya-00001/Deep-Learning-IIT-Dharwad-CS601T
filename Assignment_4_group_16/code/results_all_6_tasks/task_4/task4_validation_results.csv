@@ -1,0 +1,17 @@
+representation_dim,architecture,hidden_layers,best_epoch,best_val_accuracy,checkpoint
+32,3_hidden_best,"[128, 64, 32]",13,98.6034255599473,/content/task4_checkpoints/ae2_32_3_hidden_best_best.pt
+32,4_hidden_best,"[128, 64, 32, 16]",10,98.55072463768116,/content/task4_checkpoints/ae2_32_4_hidden_best_best.pt
+32,4_hidden_normal,"[256, 128, 64, 32]",5,98.55072463768116,/content/task4_checkpoints/ae2_32_4_hidden_normal_best.pt
+32,5_hidden_best,"[256, 128, 64, 32, 16]",9,98.76152832674572,/content/task4_checkpoints/ae2_32_5_hidden_best_best.pt
+64,3_hidden_best,"[128, 64, 32]",10,98.41897233201581,/content/task4_checkpoints/ae2_64_3_hidden_best_best.pt
+64,4_hidden_best,"[128, 64, 32, 16]",10,98.3399209486166,/content/task4_checkpoints/ae2_64_4_hidden_best_best.pt
+64,4_hidden_normal,"[256, 128, 64, 32]",10,98.36627140974967,/content/task4_checkpoints/ae2_64_4_hidden_normal_best.pt
+64,5_hidden_best,"[256, 128, 64, 32, 16]",8,98.44532279314888,/content/task4_checkpoints/ae2_64_5_hidden_best_best.pt
+128,3_hidden_best,"[128, 64, 32]",9,98.15546772068511,/content/task4_checkpoints/ae2_128_3_hidden_best_best.pt
+128,4_hidden_best,"[128, 64, 32, 16]",7,98.31357048748353,/content/task4_checkpoints/ae2_128_4_hidden_best_best.pt
+128,4_hidden_normal,"[256, 128, 64, 32]",5,98.44532279314888,/content/task4_checkpoints/ae2_128_4_hidden_normal_best.pt
+128,5_hidden_best,"[256, 128, 64, 32, 16]",14,98.31357048748353,/content/task4_checkpoints/ae2_128_5_hidden_best_best.pt
+256,3_hidden_best,"[128, 64, 32]",7,98.10276679841897,/content/task4_checkpoints/ae2_256_3_hidden_best_best.pt
+256,4_hidden_best,"[128, 64, 32, 16]",8,98.47167325428195,/content/task4_checkpoints/ae2_256_4_hidden_best_best.pt
+256,4_hidden_normal,"[256, 128, 64, 32]",11,98.20816864295125,/content/task4_checkpoints/ae2_256_4_hidden_normal_best.pt
+256,5_hidden_best,"[256, 128, 64, 32, 16]",14,98.23451910408433,/content/task4_checkpoints/ae2_256_5_hidden_best_best.pt
